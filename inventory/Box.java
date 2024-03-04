@@ -36,8 +36,6 @@ public class Box<T> {
        box.forEach((k,v)-> System.out.println(String.format("")));
 
     }
-    public T put(String k, T t) {
-        return box.put(k, t);
-    }
+
 }
 
