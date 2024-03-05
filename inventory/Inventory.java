@@ -2,9 +2,6 @@ package inventory;
 
 import java.security.PublicKey;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.Scanner;
 
 public class Inventory<T> {
     private ArrayList<T> inventory;

@@ -13,14 +13,11 @@ public class AuthServiceImpl implements AuthService {
     Map<String,Member> users;
     List<?> userList;
 
-
     private AuthServiceImpl() {
         this.users = new HashMap<>();
         this.userList = new ArrayList<>();
 
     }
-
-
 
     public static AuthService getInstance() {
         return instance;
@@ -89,17 +86,17 @@ public class AuthServiceImpl implements AuthService {
     }
 
     @Override
-    public List<Member> findUsersByName(String name) {
+    public List<?> findUsersByName(String name) {
         return null;
     }
 
     @Override
-    public Map<String, Member> getUserMap() {
+    public Map<String, ?> getUserMap() {
         return users;
     }
 
     @Override
-    public List<Member> findUsersByJob(String job) {
+    public List<?> findUsersByJob(String job) {
         return null;
     }
 

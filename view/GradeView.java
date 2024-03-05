@@ -24,7 +24,6 @@ public class GradeView {
                 .korean(util.createRandomInteger(0, 100))
                 .math(util.createRandomInteger(0, 100))
                 .build();
-
         int total = grade.getSum(subjects);
         double average = (int)grade.getAvg(total);
 
