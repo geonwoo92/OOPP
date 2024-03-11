@@ -42,19 +42,17 @@ enum Weekend{
 
     public abstract String toKorean();
 }
-public class Week {
+public class Week2 {
 
-    public static String week(Weekend weekend){
+    public static String week2(Weekend weekend){
         return weekend.toKorean();
     }
 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("무슨요일");
-        Week week = new Week();
-
-        System.out.println(Week.week());
+        System.out.println("무슨 요일");
+        System.out.println(Week2.week2(Weekend.valueOf(sc.next())));
 
 
     }
